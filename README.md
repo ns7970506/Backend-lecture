@@ -1,3 +1,4 @@
+<!-- <<<<<<< HEAD
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -14,3 +15,76 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+=======
+# React-project
+>>>>>>> 9df0096e8aee83dccab266d7890c589531a038af -->
+
+# React-project
+
+A Notes Application built using React and Vite.  
+This project provides a fast and minimal setup for building React applications using Vite.
+
+---
+
+## Features
+
+- Create notes
+- View notes
+- Delete notes
+- Fast development environment
+- Hot Module Replacement (HMR)
+- Clean React component structure
+
+---
+
+## Tech Stack
+
+- React
+- Vite
+- JavaScript (ES6)
+- CSS
+- Node.js
+- npm
+- ESLint
+
+---
+
+## Project Setup
+
+This project uses *React with Vite* for fast development and build performance.
+
+Currently two official plugins are available:
+
+- *@vitejs/plugin-react*  
+  Uses Babel (or oxc when used in rolldown-vite) for Fast Refresh.
+
+- *@vitejs/plugin-react-swc*  
+  Uses SWC for Fast Refresh.
+
+---
+
+## React Compiler
+
+The React Compiler is not enabled in this template because of its impact on development and build performance.
+
+To enable it, refer to the official documentation:  
+https://react.dev/learn/react-compiler/installation
+
+---
+
+## Expanding ESLint Configuration
+
+If you are developing a production application, it is recommended to use *TypeScript with type-aware lint rules enabled*.
+
+You can check the official TypeScript template here:  
+https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts
+
+This template shows how to integrate:
+
+- TypeScript
+- typescript-eslint
+
+---
+
+## Project Structure
+
